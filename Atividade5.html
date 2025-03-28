@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let leitura1 = parseFloat(prompt("Digite o preço do produto: "))
+        let leitura2 = parseInt(prompt("Digite a quantidade de produtos: "))
+
+
+        if(leitura2 >= 10){
+            let calculo = (leitura2 * leitura1) * 0.9
+            document.write("Valor total a ser pago com desconto: ", calculo)
+        }
+    </script>
+</body>
+</html>
